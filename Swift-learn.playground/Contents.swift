@@ -9,3 +9,6 @@ var multiline = """
 2
 3
 """
+
+var score = 10
+var stringInterpolate = "The score is \(score)"

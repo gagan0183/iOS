@@ -12,3 +12,8 @@ var multiline = """
 
 var score = 10
 var stringInterpolate = "The score is \(score)"
+
+
+var values: Int = 10
+
+var name: String

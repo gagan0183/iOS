@@ -33,5 +33,5 @@ let john = "John Lennon"
 let paul = "Paul McCartney"
 let george = "George Harrison"
 let ringo = "Ringo Starr"
-let beattles = [john, paul, george, ringo]
-beattles[1]
+let beatles = [john, paul, george, ringo]
+beatles[1]

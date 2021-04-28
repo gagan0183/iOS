@@ -25,6 +25,8 @@ var myLocation = "Canada"
 var isRaining = true
 isRaining = false
 
+let cuisine = "American"
 
-
-
+// type safety
+var restaurantRating: Double = 3;
+restaurantRating = "Good"

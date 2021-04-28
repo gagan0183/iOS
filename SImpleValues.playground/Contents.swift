@@ -29,4 +29,10 @@ let cuisine = "American"
 
 // type safety
 var restaurantRating: Double = 3;
-restaurantRating = "Good"
+//restaurantRating = "Good"
+
+// operators
+let a = 10
+let b = 10.0
+let c = Double(a) + b // int and double are incompatible. Need to manually cast this
+

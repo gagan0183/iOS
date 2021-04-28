@@ -39,4 +39,5 @@ let b = 10.0
 // string interpolations
 let value = 10
 let valueInterpolated = "The value is \(value)"
+print(valueInterpolated)
 

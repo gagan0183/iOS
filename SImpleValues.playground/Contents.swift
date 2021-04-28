@@ -34,5 +34,9 @@ var restaurantRating: Double = 3;
 // operators
 let a = 10
 let b = 10.0
-let c = Double(a) + b // int and double are incompatible. Need to manually cast this
+//let c = Double(a) + b // int and double are incompatible. Need to manually cast this
+
+// string interpolations
+let value = 10
+let valueInterpolated = "The value is \(value)"
 

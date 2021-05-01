@@ -41,3 +41,32 @@ let value = 10
 let valueInterpolated = "The value is \(value)"
 print(valueInterpolated)
 
+// if statement
+let isPictureVisible = false
+if isPictureVisible == false {
+    print("Picture is visible")
+}
+
+var trafficLight = "Yellow"
+if trafficLight == "Red" {
+    print("stop")
+} else if trafficLight == "Green" {
+    print("start")
+} else {
+    print("ready")
+}
+
+var traffic = "Yellow"
+switch traffic {
+case "Red":
+    print("stop")
+case "Yellow":
+    print("ready")
+case "Green":
+    print("start")
+default:
+    print("invalid")
+}
+
+var spouseName: String;
+print(spouseName)

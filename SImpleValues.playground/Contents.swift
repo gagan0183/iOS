@@ -70,3 +70,5 @@ default:
 
 var spouseName: String? = "Canada";
 print(spouseName)
+
+print("Go to " + spouseName!)

@@ -68,5 +68,5 @@ default:
     print("invalid")
 }
 
-var spouseName: String?;
+var spouseName: String? = "Canada";
 print(spouseName)

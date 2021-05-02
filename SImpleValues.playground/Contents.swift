@@ -93,3 +93,7 @@ for n in myrange {
     print(n)
 }
 
+for n in halfopenrange.reversed() {
+    print(n)
+}
+

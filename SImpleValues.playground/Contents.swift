@@ -72,3 +72,24 @@ var spouseName: String? = "Canada";
 print(spouseName)
 
 print("Go to " + spouseName!)
+
+var spouseName1: String?
+spouseName1 = "Canada"
+if let spouse = spouseName1 {
+    print("Go to " + spouse)
+}
+
+// range operators
+// closed range operator
+let myrange = 10...20
+print(myrange)
+
+// half open range operator
+let halfopenrange = 10..<20
+print(halfopenrange)
+
+// for loop
+for n in myrange {
+    print(n)
+}
+

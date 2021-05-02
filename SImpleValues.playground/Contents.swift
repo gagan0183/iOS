@@ -97,3 +97,8 @@ for n in halfopenrange.reversed() {
     print(n)
 }
 
+var y = 1
+while y <= 100 {
+    print(y)
+    y += 5
+}

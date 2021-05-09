@@ -97,8 +97,36 @@ for n in halfopenrange.reversed() {
     print(n)
 }
 
+// while loop
 var y = 1
 while y <= 100 {
     print(y)
     y += 5
+}
+
+// repeat while loop
+repeat {
+    print(y)
+    y -= 10
+} while y <= 1
+
+
+// arrays
+var shoppingList = ["Eggs", "Milk"]
+print(shoppingList.count)
+
+// add element to array
+shoppingList.append("Cooking")
+print(shoppingList[1])
+
+// insert element
+shoppingList.insert("Mango", at: 1)
+print(shoppingList)
+
+// remove element
+shoppingList.remove(at: 1)
+print(shoppingList)
+
+for item in shoppingList {
+    print(item)
 }
